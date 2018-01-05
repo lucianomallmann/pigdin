@@ -4,10 +4,10 @@ declare(strict_types = 1);
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 
-//ini_set("session.cookie_httponly", true);
-//ini_set("session.use_only_cookies", true);
-//ini_set("session.use_trans_sid", false);
-//session_name("PIGDIN");
+ini_set("session.cookie_httponly", true);
+ini_set("session.use_only_cookies", true);
+ini_set("session.use_trans_sid", false);
+session_name("PIGDIN");
 //session_start();
 
 require '../pigdinapi/vendor/autoload.php';
